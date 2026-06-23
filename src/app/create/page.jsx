@@ -17,7 +17,7 @@ export default function Create() {
   return (
     <main>
       <form action={handleSubmit}>
-        <h2>Add a New Book</h2>
+        <h2>Add a New Book now</h2>
         <input type="text" name="title" placeholder="title" />
         <input type="text" name="author" placeholder="author" />
         <input type="number" name="rating" max={10} min={1} placeholder="rating" />
