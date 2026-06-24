@@ -22,7 +22,7 @@ export default function Create() {
         <input type="text" name="author" placeholder="author" />
         <input type="number" name="rating" max={10} min={1} placeholder="rating" />
         <textarea name="blurb" placeholder="blurb..."></textarea>
-        <button type="submit" className="btn">Add Book</button>
+        <button type="submit" className="btn">Add Book now</button>
         {error && <div className="error">{error}</div>}
       </form>
     </main>
