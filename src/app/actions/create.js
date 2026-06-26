@@ -17,7 +17,7 @@ export async function createBook(formData) {
   }, {NX: true})
 
   if(!unique){
-    return {error: 'That book has already been added'}
+    return {error: 'That book has already been added!'}
   }
 
   await client.hSet(`books:${id}`, {
